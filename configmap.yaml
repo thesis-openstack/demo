@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-html
+data:
+  index.html: |
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+        <title>Iulia's Demo App</title>
+      </head>
+      <body>
+        <main>
+          <div>
+            <h1>Welcome to My Demo</h1>
+          </div>
+        </main>
+      </body>
+    </html>
