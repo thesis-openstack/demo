@@ -6,7 +6,7 @@ metadata:
 spec:
   routes:
     - kind: Rule
-      match: Host(`thesis.iulia.live`) && PathPrefix(`/demo`)
+      match: Host(`demo.iulia.live`)
       priority: 10
       services:
         - name: demo-service
@@ -15,13 +15,3 @@ spec:
         - name: demo-stripprefix    
   tls:
     certResolver: le
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
-metadata:
-  name: demo-stripprefix
-  namespace: default
-spec:
-  stripPrefix:
-    prefixes:
-      - /demo    
