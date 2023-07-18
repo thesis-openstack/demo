@@ -16,9 +16,14 @@ data:
       <body>
         <main>
           <div>
-            <h1>Hello World</h1>
+            <h1>Welcome to my demo!</h1>
           </div>
+          <p>
           <img src="https://place-puppy.com/300x300"/>
+          </p>
+          <p>
+          <img src="http://placekitten.com/200/300"/>
+          </p>
         </main>
       </body>
     </html>
