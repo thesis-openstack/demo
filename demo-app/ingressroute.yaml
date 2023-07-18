@@ -11,7 +11,5 @@ spec:
       services:
         - name: demo-service
           port: 80
-      middlewares:
-        - name: demo-stripprefix    
   tls:
     certResolver: le
