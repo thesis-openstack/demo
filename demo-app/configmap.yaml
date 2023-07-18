@@ -16,8 +16,9 @@ data:
       <body>
         <main>
           <div>
-            <h1>Welcome to My Demo</h1>
+            <h1>Hello World</h1>
           </div>
+          <img src="https://place-puppy.com/300x300"/>
         </main>
       </body>
     </html>
